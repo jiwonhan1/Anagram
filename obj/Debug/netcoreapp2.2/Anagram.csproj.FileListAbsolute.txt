@@ -1,0 +1,11 @@
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.AssemblyInfo.cs
+/Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.deps.json
+/Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.runtimeconfig.json
+/Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.runtimeconfig.dev.json
+/Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.dll
+/Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.pdb
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.dll
+/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.pdb
