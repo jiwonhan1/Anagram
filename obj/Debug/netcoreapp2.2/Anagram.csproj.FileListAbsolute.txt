@@ -9,3 +9,14 @@
 /Users/Guest/Desktop/Anagram.Solution/Anagram/bin/Debug/netcoreapp2.2/Anagram.pdb
 /Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.dll
 /Users/Guest/Desktop/Anagram.Solution/Anagram/obj/Debug/netcoreapp2.2/Anagram.pdb
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Anagram.deps.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Anagram.runtimeconfig.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Anagram.runtimeconfig.dev.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Anagram.dll
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Anagram.pdb
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.csprojAssemblyReference.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.csproj.CoreCompileInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.AssemblyInfoInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.AssemblyInfo.cs
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.dll
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Anagram.pdb

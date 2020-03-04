@@ -8,30 +8,47 @@ namespace Anagram.Models
         public static char[] Initialwordarray;
         public static string result;
 
-        public static List<string> userAnagram = new List<string>() { };
-        public static List<string> FinalCheck = new List<string>() { };
+        public static List<string> userAnagramList = new List<string>() { };
+        public static List<string> Anagrams = new List<string>() {};
 
-        public static void AnagramChecker(string userinput)
+        public static void Anagram(string userinput)
         {
             Initialwordarray = userinput.ToCharArray();
-
-            for (int i = 0; i < userinput.Length; i++)
-            {
-                Console.WriteLine(Initialwordarray[i]);
-            }
-
             Array.Sort(Initialwordarray);
-            result = new string(Initialwordarray);
-            Console.WriteLine(result);
-            FinalCheck.Add(result);
-            for (int i = 0; i < FinalCheck.Count; i++)
-            {
-                Console.WriteLine(FinalCheck[i]);
-            }
+            result = new string (Initialwordarray);
 
         }
 
+        public static void UserAnagram(string userInput)
+        {
+            char [] anagramCheckArray = userInput.ToCharArray();
+            Array.Sort(anagramCheckArray);
+            string converted = new string (anagramCheckArray);
+            Anagrams.Add(converted);
+        }
+
+        public static void AnagramChecker()
+        {
+          for (int i = 0; i < Anagrams.Count; i++)
+          {
+            if (result == Anagrams[i])
+            {
+              Console.WriteLine(Anagrams[i]);
+            }
+          }
+        }
 
 
-    }
+        // public static void FinalChecker()
+        // {
+        //   for(int i = 1; i < FinalCheck.Count; i++)
+        //   {
+        //       if (FinalCheck[0] == FinalCheck[i]);
+        //       {
+        //         Anagram.Add(FinalCheck[i]);
+        //       }
+        //   }
+        //
+        // }
+  }
 }

@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Guest/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Jiwon Han\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Anagram.Solution/Anagram/Anagram.csproj",
+      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Anagram.csproj",
       "projectName": "Anagram",
-      "projectPath": "/Users/Guest/Desktop/Anagram.Solution/Anagram/Anagram.csproj",
-      "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/Anagram.Solution/Anagram/obj/",
+      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Anagram.csproj",
+      "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Guest/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Jiwon Han\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
