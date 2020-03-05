@@ -13,7 +13,7 @@ namespace Anagram.Models
 
         public static void Anagram(string userinput)
         {
-            Initialwordarray = userinput.ToCharArray();
+            Initialwordarray = userinput.ToCharArray(0, userinput.Length);
             Array.Sort(Initialwordarray);
             result = new string (Initialwordarray);
 
