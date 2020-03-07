@@ -6,7 +6,8 @@
 
 ## Description
 
-**An anagram is a word that you can rearrange the letters and it becomes a new word. This C# console app, where a user can input a single word and a list of other words that may be anagrams.**
+**An anagram is a word that you can rearrange the letters and it becomes a new word. 
+This C# console app, where a user can input a single word and a list of other words that may be anagrams.**
 
 ## Specs
 
