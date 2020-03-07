@@ -1,48 +1,59 @@
 using System;
-using System.Collections.Generic;
+using System.Text;
 using Anagram.Models;
 
 namespace Wordcheck
 {
     public class Wordchecker
     {
-        // AnagramCheck anagramCheck = new AnagramCheck();
         static void Main()
         {
-            // List<string> userAnagram = new List<string>() { };
-            Console.WriteLine("Input your Word");
-            string userinput = Console.ReadLine();
-            AnagramCheck.Anagram(userinput);
+            Console.WriteLine("Welcome to Anagram!");
+            Console.WriteLine("An anagram is a word that you can rearrange the letters and it becomes a new word. \nFor example, 'bread' is an anagram of 'beard'.");
+            Console.WriteLine("You will have a chance that you provide a word and two other words that you want to check for Anagrams with the word initially provided.");
+            Console.WriteLine("");
 
+            bool validAnswer = false;
+
+            while(validAnswer == false)
+            {
+                Console.WriteLine("Would you like to play? Answer with this format [Y for yes / N for no]");
+                string playerAnswer = Console.ReadLine().ToLower();
+
+                if(playerAnswer == "y")
+                {
+                    validAnswer = true;
+                    Play();
+                }
+                else if (playerAnswer == "n")
+                {
+                    validAnswer = true;
+                    Console.WriteLine("Good Bye!");
+                }
+                else 
+                {
+                    Console.WriteLine("Invalid input. Please enter Y or N.");
+                    validAnswer = false;
+                }
+            }
+        }
+        static void Play()
+        {
+            Console.WriteLine("Please input your word");
+            string userInitialWord = Console.ReadLine();
+            AnagramCheck anagramCheck = new AnagramCheck(userInitialWord);
+            anagramCheck.userInitialAnagram();
 
             Console.WriteLine("Enter other word that you want to check it for Anagram");
             string userAnagram1 = Console.ReadLine();
-            AnagramCheck.UserAnagram(userAnagram1);
+            anagramCheck.UserAnagram(userAnagram1);
 
-            AnagramCheck.userAnagramList.Add(userAnagram1);
             Console.WriteLine("Enter another word.");
             string userAnagram2 = Console.ReadLine();
-            AnagramCheck.userAnagramList.Add(userAnagram2);
+            anagramCheck.UserAnagram(userAnagram2);
 
-            AnagramCheck.UserAnagram(userAnagram2);
-
-            Console.WriteLine(AnagramCheck.result);
-
-            AnagramCheck.AnagramChecker();
-        //    Console.WriteLine(AnagramCheck.FinalChecker());
-
-            // for(int i = 1; i < AnagramCheck.FinalCheck.Count; i++)
-            // {
-            //   if (AnagramCheck.FinalCheck[0] == AnagramCheck.FinalCheck[i])
-            //   {
-            //     Console.WriteLine('hi');
-            //   }
-            //   else
-            //   {
-            //     Console.WriteLine('hello');
-            //   }
-            }
-
+            anagramCheck.AnagramChecker();
         }
-
+    }
+        
 }

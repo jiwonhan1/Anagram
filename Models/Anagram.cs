@@ -5,50 +5,38 @@ namespace Anagram.Models
 {
     public class AnagramCheck
     {
-        public static char[] Initialwordarray;
-        public static string result;
-
-        public static List<string> userAnagramList = new List<string>() { };
-        public static List<string> Anagrams = new List<string>() {};
-
-        public static void Anagram(string userinput)
+        public static string InitialWord {get; set;}
+        public static string Result {get; set;}
+        public static List<string> OriginalAnagrams = new List<string>() {};
+        public static List<string> ConvertedAnagrams = new List<string>() {};
+        public AnagramCheck(string initialWord)
         {
-            Initialwordarray = userinput.ToCharArray();
-            Array.Sort(Initialwordarray);
-            result = new string (Initialwordarray);
-
+          InitialWord = initialWord;
+        }
+        public void userInitialAnagram()
+        {
+            char [] InitialWordArray = InitialWord.ToCharArray();
+            Array.Sort(InitialWordArray);
+            Result = new string (InitialWordArray);
         }
 
-        public static void UserAnagram(string userInput)
+        public void UserAnagram(string userAnagram)
         {
-            char [] anagramCheckArray = userInput.ToCharArray();
+            OriginalAnagrams.Add(userAnagram);
+            char [] anagramCheckArray = userAnagram.ToCharArray();
             Array.Sort(anagramCheckArray);
             string converted = new string (anagramCheckArray);
-            Anagrams.Add(converted);
+            ConvertedAnagrams.Add(converted);
         }
-
-        public static void AnagramChecker()
+        public void AnagramChecker()
         {
-          for (int i = 0; i < Anagrams.Count; i++)
+          for (int i = 0; i < ConvertedAnagrams.Count; i++)
           {
-            if (result == Anagrams[i])
+            if (Result == ConvertedAnagrams[i])
             {
-              Console.WriteLine(Anagrams[i]);
+              Console.WriteLine($"{OriginalAnagrams[i]} is an Anagram for {InitialWord}");
             }
           }
         }
-
-
-        // public static void FinalChecker()
-        // {
-        //   for(int i = 1; i < FinalCheck.Count; i++)
-        //   {
-        //       if (FinalCheck[0] == FinalCheck[i]);
-        //       {
-        //         Anagram.Add(FinalCheck[i]);
-        //       }
-        //   }
-        //
-        // }
   }
 }
