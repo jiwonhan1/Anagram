@@ -53,6 +53,7 @@ namespace Wordcheck
             anagramCheck.UserAnagram(userAnagram2);
 
             anagramCheck.AnagramChecker();
+            Console.WriteLine(anagramCheck.ParitialAnagramChecker());
         }
     }
         
