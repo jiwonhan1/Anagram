@@ -692,9 +692,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Anagram.csproj",
-      "projectName": "Anagram",
-      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Anagram.csproj",
+      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Wordchecker.csproj",
+      "projectName": "Wordchecker",
+      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\Wordchecker.csproj",
       "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\anagram\\Anagram\\obj\\",
       "projectStyle": "PackageReference",

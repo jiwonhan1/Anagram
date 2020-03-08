@@ -1,0 +1,11 @@
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Wordchecker.deps.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Wordchecker.runtimeconfig.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Wordchecker.runtimeconfig.dev.json
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Wordchecker.dll
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\bin\Debug\netcoreapp2.2\Wordchecker.pdb
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.csprojAssemblyReference.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.csproj.CoreCompileInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.AssemblyInfoInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.AssemblyInfo.cs
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.dll
+C:\Users\Jiwon Han\desktop\coding\c#\anagram\Anagram\obj\Debug\netcoreapp2.2\Wordchecker.pdb

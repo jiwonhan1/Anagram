@@ -1,5 +1,4 @@
 using System;
-using System.Text;
 using Anagram.Models;
 
 namespace Wordcheck
@@ -51,9 +50,10 @@ namespace Wordcheck
             Console.WriteLine("Enter another word.");
             string userAnagram2 = Console.ReadLine();
             anagramCheck.UserAnagram(userAnagram2);
-
+            
             anagramCheck.AnagramChecker();
-            Console.WriteLine(anagramCheck.ParitialAnagramChecker());
+            anagramCheck.InitialParitialAnagram(userAnagram1);
+            anagramCheck.InitialParitialAnagram(userAnagram2);
         }
     }
         
