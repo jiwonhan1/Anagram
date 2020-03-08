@@ -46,14 +46,15 @@ namespace Wordcheck
             Console.WriteLine("Enter other word that you want to check it for Anagram");
             string userAnagram1 = Console.ReadLine();
             anagramCheck.UserAnagram(userAnagram1);
+            anagramCheck.userPartialAnagram(userAnagram1);
 
             Console.WriteLine("Enter another word.");
             string userAnagram2 = Console.ReadLine();
             anagramCheck.UserAnagram(userAnagram2);
-            
+            anagramCheck.userPartialAnagram(userAnagram2);
+
             anagramCheck.AnagramChecker();
-            anagramCheck.InitialParitialAnagram(userAnagram1);
-            anagramCheck.InitialParitialAnagram(userAnagram2);
+
         }
     }
         
