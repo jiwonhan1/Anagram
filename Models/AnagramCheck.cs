@@ -18,6 +18,7 @@ namespace Anagram.Models
             char [] InitialWordArray = InitialWord.ToCharArray();
             Array.Sort(InitialWordArray);
             Result = new string (InitialWordArray);
+            Result = Result.ToLower();
         }
 
         public void UserAnagram(string userAnagram)
@@ -26,6 +27,7 @@ namespace Anagram.Models
             char [] anagramCheckArray = userAnagram.ToCharArray();
             Array.Sort(anagramCheckArray);
             string converted = new string (anagramCheckArray);
+            converted = converted.ToLower();
             ConvertedAnagrams.Add(converted);
         }
         public void AnagramChecker()
@@ -34,9 +36,27 @@ namespace Anagram.Models
           {
             if (Result == ConvertedAnagrams[i])
             {
-              Console.WriteLine($"{OriginalAnagrams[i]} is an Anagram for {InitialWord}");
+              Console.WriteLine($"'{OriginalAnagrams[i]}' is an Anagram for '{InitialWord}'");
             }
+            // else if (ConvertedAnagrams[i][i] == Result[i])
+            // {
+            //   Console.WriteLine($"'{OriginalAnagrams[i]}, {OriginalAnagrams[i][i]} is partially matches with '{InitialWord}'");
+            // }
           }
+        }
+
+        public bool ParitialAnagramChecker()
+        {
+        
+            for (int x = 0; x < ConvertedAnagrams[1].Length; x++)
+            {
+              if (Result[x] == ConvertedAnagrams[1][x])
+              {
+                return false;
+              }
+  
+            } return true;
         }
   }
 }
+
