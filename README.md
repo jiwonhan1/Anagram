@@ -1,6 +1,6 @@
 # [Anagram](https://github.com/jiwon-seattle/Anagram.git)
 
-#### Intermediate C# and Testing Exercise at [Epicodus](https://www.epicodus.com/), 03.03.2020
+#### Intermediate C# Exercise at [Epicodus](https://www.epicodus.com/), 03.03.2020
 
 #### By **Jiwon Han**
 
