@@ -1,4 +1,4 @@
-# [Word Counter](https://github.com/jiwon-seattle/Anagram.git)
+# [Anagram](https://github.com/jiwon-seattle/Anagram.git)
 
 #### Intermediate C# and Testing Exercise at [Epicodus](https://www.epicodus.com/), 03.03.2020
 
@@ -13,7 +13,7 @@ This C# console app, where a user can input a single word and a list of other wo
 
 | Spec | `Console` Input | `Console` Output |
 | :-------------     | :------------- | :------------- |
-| **A user could enter an word and two anagram words** | A word: bread | Anagram: beard, bird |
+| **A user could enter an word and two anagram words** | Please input your word : bread |Enter other word that you want to check it for Anagram : beard, bird |
 | **Program takes a word and checks if it is an anagram** | A word: bread | Anagram: beard |
 
 ## Setup/Installation Requirements
