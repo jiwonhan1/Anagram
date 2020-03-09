@@ -60,36 +60,45 @@ namespace Anagram.Models
             }
           }
         }
-
+        
         public void userPartialAnagram(string userAnagram)
-        {   
-            
-            List<int> userCharIndexNumbers = new List<int>(){};
-            List<int> anagramCharIndexNumbers = new List<int>(){};
-            int userCharIndex = 0;
-            int anagramCharIndex = 0;
-            int userAnagramLength = 0;
+        {               
+          List<int> userCharIndexNumbers = new List<int>(){};
+          List<int> anagramCharIndexNumbers = new List<int>(){};
+          int userCharIndex = 0;
+          int anagramCharIndex = 0;
+          int userAnagramLength = 0;
 
-            char[] arrayUserAnagram = userAnagram.ToCharArray();
-            Array.Sort(arrayUserAnagram);
-            string sortedUserAnagram = new string(arrayUserAnagram);
+          char[] arrayUserAnagram = userAnagram.ToCharArray();
+          Array.Sort(arrayUserAnagram);
+          string sortedUserAnagram = new string(arrayUserAnagram);
               
-              for (int i = 1; i < Result.Length; i++)
-                 
-                { if(Result[i-1] == Result[i])
+          for (int i = 1; i < Result.Length; i++)
+            { 
+              if(Result[i-1] == Result[i])
+                {  
                   userCharIndex++;
-                } userCharIndexNumbers.Add(userCharIndex);
+                } 
+              userCharIndexNumbers.Add(userCharIndex);
+            }
 
-              for (int y = 1; y < sortedUserAnagram.Length; y++ )
-                   { if(sortedUserAnagram[y-1] == sortedUserAnagram[y])
-                     anagramCharIndex++;
-                   } anagramCharIndexNumbers.Add(anagramCharIndex);
+            for (int y = 1; y < sortedUserAnagram.Length; y++ )
+              { 
+                if(sortedUserAnagram[y-1] == sortedUserAnagram[y])
+                  {  
+                    anagramCharIndex++;
+                  } 
+                anagramCharIndexNumbers.Add(anagramCharIndex);
+              }
 
               for (int z = 0; z < userAnagram.Length; z++)
-                    {
-                      if(Result.Contains(userAnagram[z]))
-                      userAnagramLength++;
-                    }
+                {
+                  if(Result.Contains(userAnagram[z]))
+                  {    
+                    userAnagramLength++;
+                  }
+                }
+
               string converted = "";
 
               for (int x = 0; x <userAnagram.Length; x++)
@@ -102,7 +111,7 @@ namespace Anagram.Models
                   converted = new string(partialAnagramCheck);
                   converted = converted.ToLower();
                 }
-              }ConvertedAnagrams2.Add(converted);             
+              } ConvertedAnagrams2.Add(converted);             
 
               if (userAnagramLength == userAnagram.Length && anagramCharIndex > userCharIndex)
                 {
@@ -112,6 +121,6 @@ namespace Anagram.Models
                 {
                   ConsecutiveAnagram.Add("false");
                 }
-           }
-  }
+        }
+    }
 }

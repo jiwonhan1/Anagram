@@ -54,7 +54,6 @@ namespace Wordcheck
             anagramCheck.userPartialAnagram(userAnagram2);
 
             anagramCheck.AnagramChecker();
-
         }
     }
         
