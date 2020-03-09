@@ -104,11 +104,11 @@ namespace Anagram.Models
                 }
               }ConvertedAnagrams2.Add(converted);             
 
-              if (userAnagram.Length == userAnagram.Length && anagramCharIndex > userCharIndex)
+              if (userAnagramLength == userAnagram.Length && anagramCharIndex > userCharIndex)
                 {
                   ConsecutiveAnagram.Add("true");
                 }          
-              else if (!(userAnagram.Length == userAnagram.Length && anagramCharIndex > userCharIndex))
+              else if (!(userAnagramLength == userAnagram.Length && anagramCharIndex > userCharIndex))
                 {
                   ConsecutiveAnagram.Add("false");
                 }
