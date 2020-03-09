@@ -1,20 +1,22 @@
 # [Anagram](https://github.com/jiwon-seattle/Anagram.git)
 
-#### Intermediate C# and Testing Exercise at [Epicodus](https://www.epicodus.com/), 03.03.2020
+#### Intermediate C# Exercise at [Epicodus](https://www.epicodus.com/), 03.03.2020
 
 #### By **Jiwon Han**
 
 ## Description
 
 **An anagram is a word that you can rearrange the letters and it becomes a new word. 
-This C# console app, where a user can input a single word and a list of other words that may be anagrams.**
+This C# console app, where a user can input a single word and a list of other words that may be Anagrams.**
 
 ## Specs
 
 | Spec | `Console` Input | `Console` Output |
 | :-------------     | :------------- | :------------- |
-| **A user could enter an word and two anagram words** | Please input your word : bread |Enter other word that you want to check it for Anagram : beard, bird |
-| **Program takes a word and checks if it is an anagram** | A word: bread | Anagram: beard |
+| **A user could enter an word and two Anagram words** | Please input your word : bread |Enter other word that you want to check it for Anagram : beard, bird |
+| **Program takes a word and checks if it is an Anagram** | A word: bread | Anagram: beard -> Anagram|
+| **Program takes a word and checks if it is a partial Anagram** | A word: hat | Anagram: path -> partial Anagram |
+| **Program takes a word and checks if it is a partial Anagram with consecutive characters** | A word: love | Anagram: lloovvee -> partial Anagram |
 
 ## Setup/Installation Requirements
 
