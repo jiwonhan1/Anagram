@@ -12,8 +12,8 @@ namespace Anagram.Models
 
         public static List<string> ConvertedAnagrams = new List<string>() {};
         public static List<string> ConvertedAnagrams2 = new List<string>() {};
-
         public static List<string> ConsecutiveAnagram = new List<string>() {};
+        
         public AnagramCheck(string initialWord)
         {
           InitialWord = initialWord;
