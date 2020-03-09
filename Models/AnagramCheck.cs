@@ -75,7 +75,7 @@ namespace Anagram.Models
           {
             if (Result == ConvertedAnagrams2[i])
             {
-              Console.WriteLine($"'{OriginalAnagrams[i]} is a partially Anagram for '{InitialWord}'");
+              Console.WriteLine($"'{OriginalAnagrams[i]} is a partial Anagram for '{InitialWord}'");
             }
           }
         }
